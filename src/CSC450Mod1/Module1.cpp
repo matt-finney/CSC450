@@ -9,12 +9,9 @@ using namespace std;
 
     https://github.com/matt-finney/CSC450/
 */
+
 int main()
 {
-    
-  
-
-
     // get first name
     string first_name;
     cout << "What is your first name? ";
