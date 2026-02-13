@@ -2,6 +2,13 @@
 #include <iomanip>
 #include <conio.h>
 
+/* 
+   Matthew Finney
+   CSC450 - Module 1 program corrections #2
+
+   https://github.com/matt-finney/CSC450/
+*/
+
 // Standard namespace declaration
 using namespace std;
 
