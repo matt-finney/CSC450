@@ -1,13 +1,15 @@
+#include <iostream>
+#include <conio.h>
+
 /* 
    Matthew Finney
    CSC450 - Module 1 program corrections #1
 
    Simple Program with a few Errors for Correction
    Please be sure to correct all outlined errors.
-*/
 
-#include <iostream>
-#include <conio.h>
+   https://github.com/matt-finney/CSC450/
+*/
 
 // Standard namespace declaration
 using namespace std;
