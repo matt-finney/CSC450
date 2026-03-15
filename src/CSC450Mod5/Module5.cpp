@@ -14,6 +14,14 @@ using namespace std;
     https://github.com/matt-finney/CSC450/
 */
 
+// Function to reverse a string
+string reverseText(const string& text)
+{
+    string reversed = text;
+    reverse(reversed.begin(), reversed.end());
+    return reversed;
+}
+
 int main() 
 {
     string user_input;
@@ -53,7 +61,7 @@ int main()
     in_file.close();
 
     // Reverse all characters
-    reverse(content.begin(), content.end());
+    string reversed_contents = reverseText(content);
 
     // Write the reversed contents into a new file
     // and if there was an error opening the file, print an error message and exit
@@ -65,7 +73,7 @@ int main()
     }
 
     // Write the reversed content to the new file and close it
-    reverse_file << content;
+    reverse_file << reversed_contents;
     reverse_file.close();
 
     // Print success messages for readability
