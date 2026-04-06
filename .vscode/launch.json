@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "Module8",
+            "request": "launch",
+            "mainClass": "Module8",
+            "projectName": "CSC450_c7fad332"
+        },
+        {
             "name": "Build+Debug Active File (workspace)",
             "type": "cppdbg",
             "request": "launch",
